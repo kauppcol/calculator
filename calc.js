@@ -5,8 +5,6 @@ const operators = document.querySelectorAll('.operator');
 const numberVals = "0123456789";
 const opVals = "+-*/";
 
-
-
 document.addEventListener('keydown', (e) => {
     var key = e.key;
     var code = e.code;
